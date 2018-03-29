@@ -15,6 +15,12 @@
 		1187EDAA206C898500F09174 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1187EDA9206C898500F09174 /* main.m */; };
 		1187EDB4206C898600F09174 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1187EDB3206C898600F09174 /* ___Tests.m */; };
 		1187EDBF206C898600F09174 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1187EDBE206C898600F09174 /* ___UITests.m */; };
+		1187EDCE206C89B900F09174 /* lDHFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1187EDCD206C89B900F09174 /* lDHFlowLayout.m */; };
+		1187EDD0206C92C500F09174 /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1187EDCF206C92C500F09174 /* 1.plist */; };
+		1187EDD3206C931F00F09174 /* LDHShopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1187EDD2206C931F00F09174 /* LDHShopModel.m */; };
+		1187EDD7206C933800F09174 /* LDHShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1187EDD5206C933800F09174 /* LDHShopCell.m */; };
+		1187EDD8206C933800F09174 /* LDHShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1187EDD6206C933800F09174 /* LDHShopCell.xib */; };
+		747EE9D95AF3F1261C03CBFA /* libPods-瀑布流.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E812DAEA6A9AF0599A2D84B /* libPods-瀑布流.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,11 +52,22 @@
 		1187EDA8206C898500F09174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1187EDA9206C898500F09174 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1187EDAF206C898600F09174 /* 瀑布流Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "瀑布流Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1187EDB3206C898600F09174 /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+		1187EDB3206C898600F09174 /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ___Tests.m; sourceTree = "<group>"; };
 		1187EDB5206C898600F09174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1187EDBA206C898600F09174 /* 瀑布流UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "瀑布流UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1187EDBE206C898600F09174 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
+		1187EDBE206C898600F09174 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ___UITests.m; sourceTree = "<group>"; };
 		1187EDC0206C898600F09174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1187EDCC206C89B900F09174 /* lDHFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lDHFlowLayout.h; sourceTree = "<group>"; };
+		1187EDCD206C89B900F09174 /* lDHFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lDHFlowLayout.m; sourceTree = "<group>"; };
+		1187EDCF206C92C500F09174 /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		1187EDD1206C931F00F09174 /* LDHShopModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDHShopModel.h; sourceTree = "<group>"; };
+		1187EDD2206C931F00F09174 /* LDHShopModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDHShopModel.m; sourceTree = "<group>"; };
+		1187EDD4206C933800F09174 /* LDHShopCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDHShopCell.h; sourceTree = "<group>"; };
+		1187EDD5206C933800F09174 /* LDHShopCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDHShopCell.m; sourceTree = "<group>"; };
+		1187EDD6206C933800F09174 /* LDHShopCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LDHShopCell.xib; sourceTree = "<group>"; };
+		4E812DAEA6A9AF0599A2D84B /* libPods-瀑布流.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-瀑布流.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB91F0197CA4A94479300A3 /* Pods-瀑布流.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-瀑布流.debug.xcconfig"; path = "Pods/Target Support Files/Pods-瀑布流/Pods-瀑布流.debug.xcconfig"; sourceTree = "<group>"; };
+		FA26D9CAFF33B19BFABAB3B7 /* Pods-瀑布流.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-瀑布流.release.xcconfig"; path = "Pods/Target Support Files/Pods-瀑布流/Pods-瀑布流.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				747EE9D95AF3F1261C03CBFA /* libPods-瀑布流.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +103,8 @@
 				1187EDB2206C898600F09174 /* 瀑布流Tests */,
 				1187EDBD206C898600F09174 /* 瀑布流UITests */,
 				1187ED98206C898500F09174 /* Products */,
+				DCDFCC99CAB040784C9C182C /* Pods */,
+				F58CB88B4E2306EFC1DE9A0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +121,18 @@
 		1187ED99206C898500F09174 /* 瀑布流 */ = {
 			isa = PBXGroup;
 			children = (
+				1187EDCF206C92C500F09174 /* 1.plist */,
 				1187ED9A206C898500F09174 /* AppDelegate.h */,
 				1187ED9B206C898500F09174 /* AppDelegate.m */,
 				1187ED9D206C898500F09174 /* ViewController.h */,
 				1187ED9E206C898500F09174 /* ViewController.m */,
+				1187EDCC206C89B900F09174 /* lDHFlowLayout.h */,
+				1187EDCD206C89B900F09174 /* lDHFlowLayout.m */,
+				1187EDD1206C931F00F09174 /* LDHShopModel.h */,
+				1187EDD2206C931F00F09174 /* LDHShopModel.m */,
+				1187EDD4206C933800F09174 /* LDHShopCell.h */,
+				1187EDD5206C933800F09174 /* LDHShopCell.m */,
+				1187EDD6206C933800F09174 /* LDHShopCell.xib */,
 				1187EDA0206C898500F09174 /* Main.storyboard */,
 				1187EDA3206C898500F09174 /* Assets.xcassets */,
 				1187EDA5206C898500F09174 /* LaunchScreen.storyboard */,
@@ -132,6 +160,23 @@
 			path = "瀑布流UITests";
 			sourceTree = "<group>";
 		};
+		DCDFCC99CAB040784C9C182C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEB91F0197CA4A94479300A3 /* Pods-瀑布流.debug.xcconfig */,
+				FA26D9CAFF33B19BFABAB3B7 /* Pods-瀑布流.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F58CB88B4E2306EFC1DE9A0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E812DAEA6A9AF0599A2D84B /* libPods-瀑布流.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1187EDC3206C898600F09174 /* Build configuration list for PBXNativeTarget "瀑布流" */;
 			buildPhases = (
+				C276A3E178BB541A79DD1A67 /* [CP] Check Pods Manifest.lock */,
 				1187ED93206C898500F09174 /* Sources */,
 				1187ED94206C898500F09174 /* Frameworks */,
 				1187ED95206C898500F09174 /* Resources */,
+				76CFD8FB41002048CEC0BBD7 /* [CP] Embed Pods Frameworks */,
+				13F6ACD3325B103129E1FC1B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,6 +288,8 @@
 			files = (
 				1187EDA7206C898500F09174 /* LaunchScreen.storyboard in Resources */,
 				1187EDA4206C898500F09174 /* Assets.xcassets in Resources */,
+				1187EDD0206C92C500F09174 /* 1.plist in Resources */,
+				1187EDD8206C933800F09174 /* LDHShopCell.xib in Resources */,
 				1187EDA2206C898500F09174 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,11 +310,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13F6ACD3325B103129E1FC1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-瀑布流/Pods-瀑布流-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-瀑布流/Pods-瀑布流-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76CFD8FB41002048CEC0BBD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-瀑布流/Pods-瀑布流-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C276A3E178BB541A79DD1A67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-瀑布流-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1187ED93206C898500F09174 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1187EDD7206C933800F09174 /* LDHShopCell.m in Sources */,
+				1187EDD3206C931F00F09174 /* LDHShopModel.m in Sources */,
+				1187EDCE206C89B900F09174 /* lDHFlowLayout.m in Sources */,
 				1187ED9F206C898500F09174 /* ViewController.m in Sources */,
 				1187EDAA206C898500F09174 /* main.m in Sources */,
 				1187ED9C206C898500F09174 /* AppDelegate.m in Sources */,
@@ -428,6 +535,7 @@
 		};
 		1187EDC4206C898600F09174 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB91F0197CA4A94479300A3 /* Pods-瀑布流.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +550,7 @@
 		};
 		1187EDC5206C898600F09174 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA26D9CAFF33B19BFABAB3B7 /* Pods-瀑布流.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
